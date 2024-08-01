@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 45px 0;
+    border-bottom: 2px solid #dedbdb;
+    background: #ffffff;
+}
+
+.container {
+    min-width: 1085px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navigation {
+    display: flex;
+    gap: 775px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.header_btn {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: rgb(66, 66, 66);
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    background-color: transparent;
+    border: none;
+}
+
+.header_btn::before {
+    background-image: url("./images/Vector\ \(4\).png");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    content: "";
+    display: block;
+}
+
+.card {
+    width: 650px;
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 219, 219);
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-top: 39px;
+}
+
+.mars {
+    padding: 60px 56px;
+}
+
+.h1 {
+    color: rgb(240, 64, 15);
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-left: 145px;
+    gap: 3px;
+}
+
+.vector {
+    width: 27px;
+    height: 23px;
+}
+
+.MARS {
+    display: flex;
+    align-items: center;
+}
+
+.space {
+    color: rgb(14, 13, 93);
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.buttons {
+    width: 533px;
+    border-radius: 20px;
+    background: rgb(245, 245, 245);
+    padding: 8px 8px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+.oquvch {
+    width: 255px;
+    height: 53px;
+    color: rgb(117, 117, 117);
+    font-family: "Inter";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    border-radius: 15px;
+    border: none;
+}
+
+.ota_ona {
+    width: 255px;
+    height: 53px;
+    color: rgb(117, 117, 117);
+    font-family: "Inter";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    border-radius: 15px;
+    border: none;
+}
+
+.oquvch:focus {
+    background-color: white;
+    color: black;
+}
+
+.ota_ona:focus {
+    background-color: white;
+    color: black;
+}
+
+.tel {
+    width: 533px;
+    height: 1px;
+    color: rgba(117, 117, 117, 0.7);
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    align-items: center;
+    padding: 51px;
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 219, 219);
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+}
+
+.pass{
+    width: 533px;
+    height: 1px;
+    color: rgba(117, 117, 117, 0.7);
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    align-items: center;
+    padding: 51px;
+    box-sizing: border-box;
+    border: 1px solid rgb(222, 219, 219);
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    margin-top: 39px;
+}
+
+.inputs {
+    text-align: center;
+    margin-top: 39px;
+}
+
+.QR {
+    color: rgba(0, 0, 0, 0.64);
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.btn {
+    width: 202px;
+    height: 67px;
+    color: rgb(255, 255, 255);
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    border-radius: 20px;
+    background: rgb(246, 158, 134);
+    border: none;
+    margin-left: 389px;
+    margin-top: 34px;
+}
+.btn:focus{
+    background-color: orangered;
+    color: white;
+}
